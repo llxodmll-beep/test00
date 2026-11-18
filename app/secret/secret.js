@@ -2226,7 +2226,7 @@ ${[
   /* =====================================================================
      모닝 브리핑 — GitHub Actions 가 매일 아침 briefing 브랜치에 저장한 큰 이슈 15개 (AI 토큰 안 씀)
      ===================================================================== */
-  const briefRepo = () => { let c = null; try { c = typeof GH !== 'undefined' && GH.load ? GH.load() : null; } catch (e) { } return `${(c && c.owner) || 'kwonyujin119'}/${(c && c.repo) || 'test0'}`; };
+  const briefRepo = () => { let c = null; try { c = typeof GH !== 'undefined' && GH.load ? GH.load() : null; } catch (e) { } return `${(c && c.owner) || 'llxodmll-beep'}/${(c && c.repo) || 'test00'}`; };
   const briefUrl = (f, ref) => `https://raw.githubusercontent.com/${briefRepo()}/${ref || 'briefing'}/${f}${ref ? '' : `?v=${Math.floor(Date.now() / 300000)}`}`;
   /* 방금 올라온 판이 바로 보이게: briefing 브랜치의 최신 커밋 번호로 읽음 (raw 서버는 브랜치 주소를 5분쯤 예전 것으로 보여 줌). 실패하면 브랜치 주소로 */
   let briefRef = { sha: '', at: 0 };
@@ -2580,7 +2580,7 @@ ${[
 
   function ghCfg() {
     const v = LS.get('ve:sync', {}); let g = null; try { g = GH.cfg || GH.load(); } catch (e) { }
-    return { owner: v.owner || (g && g.owner) || 'kwonyujin119', repo: v.repo || 'test0-video', token: v.token || (g && g.token) || '', from: v.token ? 'video' : (g && g.token) ? 'shared' : '' };
+    return { owner: v.owner || (g && g.owner) || 'llxodmll-beep', repo: v.repo || 'test0-video', token: v.token || (g && g.token) || '', from: v.token ? 'video' : (g && g.token) ? 'shared' : '' };
   }
   async function gh(method, path, body) {
     const c = ghCfg();
