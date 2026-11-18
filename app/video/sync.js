@@ -14,7 +14,7 @@
     const c = readLS(CFG, {}); let gh = null; try { gh = typeof GH !== 'undefined' ? (GH.cfg || GH.load()) : null; } catch (e) { }
     /* 영상 저장소용 토큰을 따로 넣었으면 그것을, 아니면 DPV의 [GitHub 연결] 토큰을 쓴다 */
     const own = c.token || '', shared = (gh && gh.token) || '';
-    return { on: !!c.on, owner: c.owner || (gh && gh.owner) || 'kwonyujin119', repo: c.repo || 'test0-video', token: own || shared, tokenFrom: own ? 'video' : shared ? 'shared' : '' };
+    return { on: !!c.on, owner: c.owner || (gh && gh.owner) || 'llxodmll-beep', repo: c.repo || 'test0-video', token: own || shared, tokenFrom: own ? 'video' : shared ? 'shared' : '' };
   };
   /* 새 토큰 넣기: 영상 저장소에 쓸 수 있는지 먼저 확인. 이 기기에 교안용 토큰이 없고 새 토큰이 교안 저장소에도 쓰이면 그쪽에도 넣는다 (한 번만 넣게) */
   S.useToken = async token => {

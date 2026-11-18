@@ -12,7 +12,7 @@
      KIS_APPSECRET  한국투자증권 앱시크릿  ─┘ 없으면 DART · 네이버 · ECOS · FRED 통로로만
      KIS_MOCK       "1" 이면 모의투자 서버로 */
 
-const ORIGINS = ['https://kwonyujin119.github.io'];
+const ORIGINS = ['https://llxodmll-beep.github.io'];
 const REAL = 'https://openapi.koreainvestment.com:9443';
 const MOCK = 'https://openapivts.koreainvestment.com:29443';
 

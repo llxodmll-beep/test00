@@ -1124,7 +1124,7 @@ const GH = {
   KEY: 'gyoan:gh',
   cfg: null,
   onPages: false,
-  /* kwonyujin119.github.io/test0/ → owner=kwonyujin119, repo=test0 */
+  /* llxodmll-beep.github.io/test00/ → owner=llxodmll-beep, repo=test00 */
   detect() {
     const m = location.hostname.match(/^([^.]+)\.github\.io$/i);
     if (!m) return null;
@@ -1234,7 +1234,7 @@ const GH = {
   connect(opts) {
     opts = opts || {};
     return new Promise(done => {
-      const c = this.cfg || this.detect() || { owner: 'kwonyujin119', repo: 'test0', branch: 'main', token: '' };
+      const c = this.cfg || this.detect() || { owner: 'llxodmll-beep', repo: 'test00', branch: 'main', token: '' };
       const linked = !!c.token && !opts.expired && !opts.reason; // 이미 이 기기에 토큰이 있음 → 연결 상태를 먼저 보여 주고, 토큰 칸은 '바꾸기' 용
       const bg = document.createElement('div'); bg.className = 'modal-bg';
       bg.innerHTML = `<div class="modal" style="width:560px;max-width:94vw">
@@ -1253,7 +1253,7 @@ const GH = {
         <ol>
           <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a> 를 엽니다.</li>
           <li>Token name 에 <code>gyoan</code>, Expiration 은 넉넉히(예: 1년).</li>
-          <li><b>Repository access</b> → <i>Only select repositories</i> → <code>${esc(c.repo || 'test0')}</code> 선택.</li>
+          <li><b>Repository access</b> → <i>Only select repositories</i> → <code>${esc(c.repo || 'test00')}</code> 선택.</li>
           <li><b>Permissions</b> → Repository permissions → <b>Contents</b> → <i>Read and write</i>.</li>
           <li><i>Generate token</i> 을 누르고 나온 문자열을 위 칸에 붙여넣습니다.</li>
         </ol>
