@@ -9,7 +9,7 @@
 const Access = {
   KEY: 'ws:access',
   SALT: 'ws-admin-gate-v1',
-  HASH: '3c5f53fe61602d917960e99493b424c0d9653532b7218735d0560ad69e9776d0',
+  HASH: '3dd95b698a72ff02c8ed54efdef65d682278f318c1ace75c4c5f5e22a48dd87d',
   ADMIN_DAYS: 30, // 관리자 모드는 이 기기에서 30일 동안 유지 (그 뒤엔 코드를 다시 묻는다)
   _st: undefined,
   load() {
