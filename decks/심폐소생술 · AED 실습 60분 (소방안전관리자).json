@@ -4,7 +4,7 @@
  "transition": "fade",
  "decor": "none",
  "created": "2026-11-18T22:18:05.000Z",
- "modified": "2026-11-19T13:55:16.624Z",
+ "modified": "2026-11-19T14:09:04.188Z",
  "colors": {
   "bg": "#FFFFFF",
   "fg": "#334155",
@@ -2310,22 +2310,6 @@
      "opacity": 1
     },
     {
-     "id": "cpcollapse1",
-     "type": "image",
-     "x": 1110,
-     "y": 96,
-     "w": 700,
-     "h": 544,
-     "src": "assets/cpr-collapse-anime.svg",
-     "fit": "cover",
-     "radius": 28,
-     "shadow": true,
-     "step": 0,
-     "anim": "fade",
-     "rotate": 0,
-     "opacity": 1
-    },
-    {
      "id": "cp0058",
      "type": "text",
      "role": "text",
@@ -2440,6 +2424,22 @@
      "anim": "up",
      "rotate": 0,
      "opacity": 1
+    },
+    {
+     "id": "va0ct5p9v",
+     "step": 0,
+     "anim": "fade",
+     "rotate": 0,
+     "opacity": 1,
+     "type": "image",
+     "x": 1080,
+     "y": 120,
+     "w": 657,
+     "h": 511,
+     "src": "assets/clipboard-1795097330899-lp9ua0x.png",
+     "fit": "contain",
+     "radius": 0,
+     "shadow": false
     }
    ]
   },
