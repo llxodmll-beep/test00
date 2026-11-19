@@ -1836,7 +1836,7 @@
      "y": 326,
      "w": 358,
      "h": 322,
-     "src": "assets/cpr-4min-ramen.svg",
+     "src": "assets/cpr-4min-ramen-manga.svg",
      "fit": "cover",
      "radius": 20,
      "shadow": false
@@ -1952,7 +1952,7 @@
      "y": 326,
      "w": 358,
      "h": 322,
-     "src": "assets/cpr-4min-music.svg",
+     "src": "assets/cpr-4min-music-manga.svg",
      "fit": "cover",
      "radius": 20,
      "shadow": false
@@ -2068,7 +2068,7 @@
      "y": 326,
      "w": 358,
      "h": 322,
-     "src": "assets/cpr-4min-workout.svg",
+     "src": "assets/cpr-4min-workout-manga.svg",
      "fit": "cover",
      "radius": 20,
      "shadow": false
@@ -2184,7 +2184,7 @@
      "y": 326,
      "w": 358,
      "h": 322,
-     "src": "assets/cpr-4min-reading.svg",
+     "src": "assets/cpr-4min-reading-manga.svg",
      "fit": "cover",
      "radius": 20,
      "shadow": false
