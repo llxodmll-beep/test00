@@ -9034,7 +9034,7 @@
      "y": 0,
      "w": 1920,
      "h": 1080,
-     "src": "assets/cpr-sec-part2b.jpg",
+     "src": "assets/cpr-sec-part2c.jpg",
      "fit": "cover",
      "radius": 0,
      "shadow": false,
@@ -9051,14 +9051,15 @@
      "y": 30,
      "w": 364,
      "h": 62,
-     "html": "인천소방학교<br><span style='font-size:13px;letter-spacing:1.6px;font-weight:600;color:#9FB7DA'>INCHEON FIRE SERVICE ACADEMY</span>",
+     "html": "인천소방학교<br><span style='font-size:13px;letter-spacing:1.6px;font-weight:600;color:#F1F5F9'>INCHEON FIRE SERVICE ACADEMY</span>",
      "style": {
       "fontSize": 23,
       "color": "#FFFFFF",
       "align": "right",
       "valign": "middle",
       "lineHeight": 1.15,
-      "bold": true
+      "bold": true,
+      "tshadow": true
      },
      "step": 0,
      "anim": "fade",
