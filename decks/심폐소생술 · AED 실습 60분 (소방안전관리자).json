@@ -4,7 +4,7 @@
  "transition": "fade",
  "decor": "none",
  "created": "2026-11-18T22:18:05.000Z",
- "modified": "2026-11-21T01:04:37.625Z",
+ "modified": "2026-11-21T01:34:27.063Z",
  "colors": {
   "bg": "#FFFFFF",
   "fg": "#334155",
@@ -268,7 +268,7 @@
      "y": 540,
      "w": 860,
      "h": 140,
-     "html": "망설이지 않으면,<br><b style=\"color:#D7263D\">살릴 수 있습니다.</b>",
+     "html": "망설이지 않으면, <b style=\"color:#D7263D\">살릴 수 있습니다.</b>",
      "style": {
       "fontSize": 44,
       "color": "#1F2937",
@@ -314,7 +314,7 @@
      "y": 846,
      "w": 500,
      "h": 58,
-     "html": "김태의",
+     "html": "응급구조사 김태의",
      "style": {
       "fontSize": 52,
       "color": "#0F172A",
