@@ -4,7 +4,7 @@
  "transition": "fade",
  "decor": "none",
  "created": "2026-11-18T22:18:05.000Z",
- "modified": "2026-11-21T02:24:58.056Z",
+ "modified": "2026-11-21T02:26:59.585Z",
  "colors": {
   "bg": "#FFFFFF",
   "fg": "#334155",
@@ -1127,7 +1127,7 @@
      "y": 262,
      "w": 186,
      "h": 76,
-     "html": "현장지휘업무",
+     "html": "<b>현장지휘업무</b>",
      "style": {
       "fontSize": 24,
       "color": "#334155",
