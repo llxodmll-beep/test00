@@ -4,7 +4,7 @@
  "transition": "fade",
  "decor": "none",
  "created": "2026-11-18T22:18:05.000Z",
- "modified": "2026-11-21T01:59:00.840Z",
+ "modified": "2026-11-21T02:06:52.961Z",
  "colors": {
   "bg": "#FFFFFF",
   "fg": "#334155",
@@ -2140,7 +2140,7 @@
      "y": 678,
      "w": 280,
      "h": 56,
-     "html": "습관을 위해",
+     "html": "좋은 습관을 위해",
      "style": {
       "fontSize": 26,
       "color": "#1C7ED6",
@@ -2162,7 +2162,7 @@
      "y": 750,
      "w": 342,
      "h": 130,
-     "html": "책 몇 페이지 읽기",
+     "html": "독서하기",
      "style": {
       "fontSize": 36,
       "color": "#0F172A",
