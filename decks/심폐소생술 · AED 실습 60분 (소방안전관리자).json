@@ -4,7 +4,7 @@
  "transition": "fade",
  "decor": "none",
  "created": "2026-11-18T22:18:05.000Z",
- "modified": "2026-11-21T02:26:59.585Z",
+ "modified": "2026-11-21T02:33:51.350Z",
  "colors": {
   "bg": "#FFFFFF",
   "fg": "#334155",
@@ -297,20 +297,21 @@
      "opacity": 1
     },
     {
-     "id": "ctr02",
+     "id": "4xetmvafa",
      "type": "image",
-     "x": 120,
-     "y": 812,
-     "w": 122,
-     "h": 120,
-     "src": "assets/cpr-center-patch.png",
+     "x": 78,
+     "y": 816,
+     "w": 138,
+     "h": 146,
+     "src": "assets/cpr-ifa-emblem.png",
      "fit": "contain",
      "radius": 0,
      "shadow": false,
      "step": 0,
      "anim": "fade",
      "rotate": 0,
-     "opacity": 1
+     "opacity": 1,
+     "mk": "ifa002"
     }
    ]
   },
