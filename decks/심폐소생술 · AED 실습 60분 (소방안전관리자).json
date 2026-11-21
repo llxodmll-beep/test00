@@ -4,7 +4,7 @@
  "transition": "fade",
  "decor": "none",
  "created": "2026-11-18T22:18:05.000Z",
- "modified": "2026-11-21T00:41:59.312Z",
+ "modified": "2026-11-21T00:42:55.473Z",
  "colors": {
   "bg": "#FFFFFF",
   "fg": "#334155",
@@ -1593,22 +1593,6 @@
      },
      "step": 3,
      "anim": "up",
-     "rotate": 0,
-     "opacity": 1
-    },
-    {
-     "id": "ctr03",
-     "type": "image",
-     "x": 446,
-     "y": 520,
-     "w": 114,
-     "h": 112,
-     "src": "assets/cpr-center-patch.png",
-     "fit": "contain",
-     "radius": 0,
-     "shadow": false,
-     "step": 0,
-     "anim": "fade",
      "rotate": 0,
      "opacity": 1
     }
